@@ -1,6 +1,6 @@
 # Otopark Web Sitesi
 
-Html, CSS, JavaScript, PHP, veri tabanı için MySQL kullanılarak geliştirilen bir web sitesidir. Kullanıcıya kayıt olma, giriş yapma, çıkış yapma, yorum yapma ve yapılan yorumları gösterme seçenekleri sunar.  
+Html, CSS, JavaScript, PHP ve veri tabanı için MySQL kullanılarak geliştirilen bir web sitesidir. Kullanıcıya kayıt olma, giriş yapma, çıkış yapma, yorum yapma ve yapılan yorumları gösterme seçenekleri sunar.  
 
 Web sitesinin ve veri tabanının genel görüntüleri aşağıda verilmiştir.  
 
