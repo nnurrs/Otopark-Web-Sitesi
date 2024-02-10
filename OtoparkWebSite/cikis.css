@@ -1,0 +1,95 @@
+.aktifc {
+  background-color: #3b579a;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(
+    to top,
+    rgb(200, 195, 191) 0%,
+    #3b579a 100%
+  );
+}
+
+form {
+  width: 450px;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsl(20, 9%, 93%);
+  padding: 2%;
+  background-image: linear-gradient(
+    -225deg,
+    #3b579a 0% 50%,
+    rgb(200, 195, 191) 50%
+  );
+}
+
+header {
+  margin: 2% auto 10% auto;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 250%;
+  font-family: "Playfair Display", serif;
+  color: #f5f4f6;
+}
+header p {
+  letter-spacing: 0.05em;
+}
+
+/* inputs form  */
+input[class="form-input"] {
+  width: 240px;
+  height: 50px;
+
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #5e6472;
+  border: none;
+
+  border-radius: 5px 5px 5px 5px;
+}
+
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+.log-in {
+  background-color: #3b579a;
+  color: rgb(200, 195, 191);
+  width: 280px;
+  height: 50px;
+
+  padding: 0 20px;
+  border-radius: 5px;
+
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.bilgi {
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: serif;
+  text-align: center;
+}

@@ -1,0 +1,88 @@
+.aktifk {
+  background-color: rgb(8, 27, 50);
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(
+    to top,
+    rgb(200, 195, 191) 0%,
+    rgb(8, 27, 50) 100%
+  ); /*arka planı 2 renk yapma*/
+}
+
+form {
+  width: 450px;
+  border-radius: 5px; /*form kenarlarına uyuvarlak yapma*/
+  margin: 2% auto; /*Formun sol ve sağ kenarları 2% boşluk, üst ve altı otomatik olarak ortalama*/
+  box-shadow: 0 9px 50px hsl(20, 9%, 93%);
+  padding: 2%; /*form içeriği ile form arası boşluk bırakma*/
+  background-image: linear-gradient(
+    /*renkleri geçişli yapma*/ -225deg,
+    rgb(8, 27, 50) 0% 50%,
+    rgb(200, 195, 191) 50%
+  );
+}
+
+header {
+  /*margin-> üst sağ alt sol*/
+  margin: 2% auto 10% auto; /*üstten %2 alttan %10 ve sağ sol boşluğu otomatik*/
+  text-align: center;
+}
+header h2 {
+  /*header içindek h2 için*/
+  font-size: 250%;
+  font-family: serif;
+  color: #f5f4f6;
+}
+header p {
+  letter-spacing: 0.05em; /*paragraftaki harfler arası boşluk*/
+  color: #ffffff;
+}
+
+input[class="form-input"] {
+  /*form içindeki  form-input class ına sahip olan kısımlar için*/
+  width: 240px;
+  height: 50px;
+  margin-top: 2%; /*inputlar arası boşluk*/
+  padding: 15px; /*input içinde yazanlar ile kenarlar arası boşluk*/
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #5e6472;
+  border: none;
+  border-radius: 5px 5px 5px 5px; /*kenarları hafif yuvarlak yapma*/
+}
+
+button:hover {
+  /*buton üstüne gelince animasyon ekler*/
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px); /*başlangıç y ekseninden 3 px aşağı kayar*/
+  }
+  100% {
+    transform: translateY(5px); /*bitiş y ekseninden 3 px aşağı kayar*/
+  }
+}
+.log-in {
+  background-color: rgb(8, 27, 50);
+  color: #ffffff;
+  border-radius: 5px;
+  width: 280px; /*buton eni*/
+  height: 50px;
+  padding: 0 20px; /*buton içindeki yazı için*/
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.bilgi {
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: serif;
+  text-align: center;
+}

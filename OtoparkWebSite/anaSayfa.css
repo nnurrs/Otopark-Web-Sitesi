@@ -1,0 +1,45 @@
+.custom-card {
+  /*3. card için*/
+  margin-top: 1px; /* Üst boşluk */
+  margin-bottom: 10px; /* Alt boşluk */
+  padding: 10px; /* İç boşluk */
+}
+
+.navbar {
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*içerik ögenin sınırlarıı aşınca aşan ksımı gizler(yorumYap sayfası için)*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block; /*yorumlar sayfası için*/
+  padding: 14px 16px;
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  /*fare üzerine gelince*/
+  background-color: #888888;
+  color: white;
+}
+
+.aktif {
+  background-color: #6a55a3;
+  color: rgb(241, 217, 217);
+}
+.text-center {
+  text-align: center;
+  width: 500%;
+  height: 500px;
+}
